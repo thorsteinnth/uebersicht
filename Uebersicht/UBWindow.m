@@ -35,7 +35,7 @@
         [self setOpaque:NO];
         [self sendToDesktop];
         [self setCollectionBehavior:(
-            NSWindowCollectionBehaviorTransient |
+            NSWindowCollectionBehaviorStationary |
             NSWindowCollectionBehaviorCanJoinAllSpaces |
             NSWindowCollectionBehaviorIgnoresCycle
         )];
